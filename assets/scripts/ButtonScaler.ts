@@ -41,6 +41,6 @@ export class ButtonScaler extends Component {
         if(!this._scale.equals(this._lastScale)){
             this.node.setScale(this._scale);
             this._lastScale.set(this._scale);
-        }//
+        }
     }
 }
